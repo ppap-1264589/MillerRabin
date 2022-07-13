@@ -1,11 +1,15 @@
 ## [Trang chủ](https://ppap-1264589.github.io/interesting-solution)
 
-## Miller-Rabin Test
+## Ý nghĩa
+
+Một thuật toán rất khỏe để phân tích một số ra thừa số nguyên tố
+
+## Tài liệu
 
 [cp algorithms](https://cp-algorithms.com/algebra/primality_tests.html)
 
 
-### Code : [MILLER.cpp](https://ideone.com/BjgW4k)
+## Code : [MILLER.cpp](https://ideone.com/BjgW4k)
 
 ``` c++
 #include <bits/stdc++.h>
@@ -76,3 +80,5 @@ signed main(){
 Nếu phải kiểm tra tính nguyên tố của một số lớn khoảng 1e18, việc nhân hai số có thể tràn số, nên ta phải dùng kiểu số ngầm trong C++ là __uint128_t
 
 Tuy nhiên không phải trình chấm nào cũng chấp nhận kiểu số này. Ví dụ như trình chấm Themis trong các kì thi HSG ở Việt Nam thì thậm chí còn không được sử dụng
+
+Thuật này chạy ổn trên các trình chấm online
