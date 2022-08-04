@@ -2,7 +2,7 @@
 
 ## Ý nghĩa
 
-Một thuật toán rất khỏe để phân tích một số ra thừa số nguyên tố
+Một thuật toán rất khỏe để kiểm tra tính nguyên tố của một số cho trước
 
 ## Tài liệu
 
